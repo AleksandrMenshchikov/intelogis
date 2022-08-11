@@ -83,7 +83,7 @@ function App() {
   function handleMouseDownApp() {
     if (state.isShowIconScreenDivider) {
       dispatch({ type: constants.setIsMouseDown, payload: true });
-      dispatch({ type: constants.setRange, payload: [-22, 24] });
+      dispatch({ type: constants.setRange, payload: [-92, 94] });
       dispatch({ type: constants.setDelay, payload: 0 });
     }
   }
